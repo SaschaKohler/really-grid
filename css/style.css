@@ -27,18 +27,18 @@ nav{
     margin:0;
     padding:0;
 }
-nav ul {
+nav ul , .site ul{
     list-style:none;
     padding:0;
     text-align:center;
     margin:0;
 }
-nav li{
+nav li, .site li{
     background:cornflowerblue;
     width:100%;
 }
 
-nav li a{
+nav li a , .site li a{ 
     text-align:center;
     text-decoration: none;
     color:white;
@@ -46,8 +46,12 @@ nav li a{
     display: block;
 }
 
-nav li a:hover{
+nav li a:hover , .site li a:hover{ 
     background: cyan;
+}
+
+.site {
+    text-align:center;
 }
 
 .article {
@@ -84,6 +88,17 @@ section{
 .content p::first-letter {
     font-weight: bolder;
     font-size: 200%;
+}
+figure{
+    position:relative;
+    width:200px;
+
+}
+figcaption{
+    position:absolute;
+    bottom:20px;
+    height:20px;
+    background:rgba(223, 153, 24, 0.164)
 }
 
 

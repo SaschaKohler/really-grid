@@ -19,8 +19,13 @@ header{
     text-align:center;
 
 }
+header{
+    text-align:center;
+}
 header h1{
-    margin:0;
+    display: inline-block;
+    text-align:left;
+    font-size:5vw;
 }
 
 nav{
@@ -90,15 +95,13 @@ section{
     font-size: 200%;
 }
 figure{
-    position:relative;
-    width:200px;
+    text-align:center
+    
 
 }
 figcaption{
-    position:absolute;
-    bottom:20px;
-    height:20px;
-    background:rgba(223, 153, 24, 0.164)
+    display:inline-block;
+    text-align:left;
 }
 
 
